@@ -1,13 +1,33 @@
 # Modelado de Amenazas
 
 ## Que estamos protegiendo realmente?
-Protegemos el sistema operativo del celular, cada aplicacion corre en un sandbox para evitar que algo malicioso lo afecte, por ende lo que se protege en si es el sistema operativo?
+- Datos personales
+- Fotos
+- Mensajes
+- Credenciales
+- Sesiones iniciadas
+- Llaves criptograficas
+- Aplicaciones
+- Integridad del dispositivo
+- Disponibilidad del dispositivo
+
+Para entender mejor esto debemos pensar en la famosa CIA:
+- Confidentiality -> Quien puede leer la informacion
+- Integrity -> Quien puede modificarla?
+- Availability -> Puedo seguir accediendo a ella
+
+Entonces resumidas cuentas queremos proteger la integiridad del dispositivo y todos sus datos.
 
 ## De quien lo protegemos?
-De cibercriminales y personas malintencionadas que busquen perjudicar al usuario
+En nuestra vida cotidiana pueden aparecer varias actores de amenazas, algunos directamente u otros no directamente.
+- Ladron que tiene el dispositivo fisicamente
+- Aplicacion con malware instalada por el mismo usuario
+- Atacante que controla alguna red wifi
+- Persona que quiere acceder al dispositivo
+- Algun atacante intentando explotar alguna vulnerabilidad remota
 
 ## Que pasa si la proteccion falla?
-Si la proteccion falla supongo que hay tipo plan b sobre ello, no se, bloqueo de dispositivo o algo que detenga el proceso.
+Si la proteccion falla en si, el danio varia completamente de que activo fue el atacado, puede perder la privacidad, como un spyware, la disponibilidad, imagina que tiren una red wifi o tumben el servidor de la VPN, acceso no autorizado, varia dependiendo del tipo de ataque.
 
 ## Que vamos a sacrificar por la seguridad
-la comodidad comun, los celulares comunes tienen disenio para ganchar a los usuarios, lo cual un sistema protegido tiende a perder ciertas "comodidades"
+Para tener mayor nivel de seguridad hay que sacrificar comodidad y facilidad en la recuperacion del dispositivo. Algunas apps o servicios podrian restringirse dependiendo del grado del modelo de amenazas y configuraciones que pueden provocar que el dispositivo sea menos comodo de usar.
